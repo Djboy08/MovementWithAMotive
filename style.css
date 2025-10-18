@@ -160,6 +160,19 @@ main {
 /* Fix poster grid on smaller screens */
 .poster-grid {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  gap: 15px;
+}
+
+.poster-grid2 {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+  flex: auto;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
   gap: 15px;
 }
 
